@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    flake-utils-plus.url = "github:gytis-ivaskevicius/flake-utils-plus/master";
+    flake-utils-plus.url = "github:Dines97/flake-utils-plus";
     nix-unit = {
       url = "github:nix-community/nix-unit/main";
       inputs.nixpkgs.follows = "nixpkgs";
